@@ -59,6 +59,18 @@ internal class Program {
             Console.WriteLine("NIE");
         }
 
+        // Zad 6
+        int p = int.Parse(Console.ReadLine());
+        int a = int.Parse(Console.ReadLine());
+        if ((Math.Pow(a, p) - a) % p == 0)
+        {
+            Console.WriteLine("TAK");
+        }
+        else
+        {
+            Console.WriteLine("NIE");
+        }
+
         // Zad 7
         int p = Convert.ToInt32(Console.ReadLine());
         int k = Convert.ToInt32(Console.ReadLine());
